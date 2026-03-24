@@ -51,29 +51,17 @@
 - Add OpenAI/GPT API integration in `AI.js` to fetch real recipe content
 - Keep prompt formatting in `AI.js` (or move to backend) for better maintainability
 
-## 🧪 Testing
-
-No tests included by default. Add your preferred test runner (`Jest`, `Vitest`, etc.) and create tests for:
-
-- prompt input behavior
-- recipe output formatting
-- component rendering
-
-## 📝 Suggestions for improvement
+##  Future improvement
 
 - add state persistence (localStorage)
 - support saved recipes/favorites
 - language translation and dietary restrictions filter
 - backend endpoint with real AI recipe generation
 
-## 📜 License
+##  License
 
 MIT
 
 ## React Compiler
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
